@@ -1,0 +1,139 @@
+.addproduct {
+  background-color: #666;
+}
+.con {
+  margin-top: 20px;
+  /* margin-left: 10%; */
+  width: 50%;
+  /* height: 80%; */
+}
+.addproduct {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.add {
+  display: flex;
+  align-items: center;
+
+  height: 70px;
+  width: 100%;
+}
+.add input {
+  height: 50px;
+  width: 500px;
+  font-size: 20px;
+  margin-left: 60px;
+  background-color: white;
+}
+.added textarea {
+  width: 500px;
+  height: 80px;
+  border: none;
+  font-size: 20px;
+  background-color: white;
+}
+.added {
+  display: flex;
+  height: 90px;
+  width: 100%;
+  /* margin-left: 200px; */
+}
+.conplus {
+  width: 600px;
+  margin-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.plus {
+  display: flex;
+  height: 80px;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+.plus input {
+  height: 40px;
+  width: 70%;
+
+  background-color: white;
+}
+.pluss {
+  width: 80%;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.pluss h3 {
+  width: 100px;
+  color: white;
+}
+.pluss select {
+  width: 60%;
+  height: 45px;
+  border-radius: 10px;
+}
+.plus select {
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+}
+.plus h3 {
+  width: 150px;
+  color: white;
+}
+@media (200px <= width <= 800px) {
+  .addproduct {
+    display: block;
+    background-color: gray;
+    background-image: none;
+  }
+  .con {
+    width: 100%;
+  }
+  .conplus {
+    width: 90%;
+    margin-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .plus {
+    display: flex;
+    flex-wrap: wrap;
+
+    height: 90px;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .add {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+  }
+  .con h3 {
+    font-size: 15px;
+    font-weight: 200;
+    margin-left: 8px;
+  }
+  .add input {
+    margin-left: 0px;
+    height: 48px;
+  }
+  .added {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 150px;
+  }
+  .plus h3 {
+    font-size: 15px;
+    font-weight: 200;
+    width: 90%;
+    margin-left: 0px;
+  }
+}

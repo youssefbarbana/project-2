@@ -1,0 +1,18 @@
+.sidebar {
+  width: 230px;
+  height: 300px;
+  border: 2px solid black;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+
+  margin-top: 10px;
+  position: fixed;
+  top: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: white;
+}
+.div {
+  display: flex;
+}
